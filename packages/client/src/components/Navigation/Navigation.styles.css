@@ -1,0 +1,65 @@
+.navigation-div {
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  padding: 2px 25px 2px 25px;
+  font-size: 20px;
+}
+
+.nav-firstDiv {
+  display: flex;
+  margin: 2px;
+}
+
+.nav-secondDiv {
+  display: flex;
+  margin: 2px;
+}
+
+.nav-header {
+  font-size: 25px;
+}
+
+.nav {
+  margin-left: auto;
+  padding: 5px;
+}
+
+.nav span {
+  padding: 5px;
+}
+
+.nav-secondDiv span {
+  padding-right: 10px;
+}
+
+.search {
+  margin-left: auto;
+  padding: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-secondDiv,
+  .nav-firstDiv {
+    flex-flow: column wrap;
+    /* margin: auto; */
+  }
+
+  .nav {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav span {
+    padding: 0px 15px 0px 0px;
+  }
+
+  .nav-secondDiv span {
+    padding-right: 12px;
+  }
+
+  .search {
+    margin: 0px;
+    padding: 0px;
+  }
+}
